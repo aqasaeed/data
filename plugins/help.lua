@@ -1,7 +1,7 @@
 do
     
 function run(msg, matches)
-  local help = [[Self-Bot Commands
+  local help = [[دستورات
 
 ●#bot on
 فعال کردن بوت در یک گروه خواص
@@ -93,7 +93,7 @@ function run(msg, matches)
 .......................................]]
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
-   return '💥 Help was sent in your pv '
+   return '💥 راهنما در پی وی برای شما ارسال شد '
     end
 end 
 
