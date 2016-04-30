@@ -20,3 +20,4 @@ cd Self-Bot
 ```
 
 
+Channel : https://telegram.me/SpartaSoft
